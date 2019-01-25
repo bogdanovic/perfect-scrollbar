@@ -19,6 +19,7 @@ const defaultSettings = () => ({
   scrollingThreshold: 1000,
   scrollXMarginOffset: 0,
   scrollYMarginOffset: 0,
+  scrollTouchDisable: false,
   suppressScrollX: false,
   suppressScrollY: false,
   swipeEasing: true,

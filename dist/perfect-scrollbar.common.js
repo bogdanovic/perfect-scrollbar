@@ -936,6 +936,9 @@ var touch = function(i) {
   }
 
   function shouldHandle(e) {
+    if (i.settings.scrollTouchDisable) {
+      return false;
+    }
     if (e.pointerType && e.pointerType === 'pen' && e.buttons === 0) {
       return false;
     }
@@ -1095,6 +1098,7 @@ var defaultSettings = function () { return ({
   scrollingThreshold: 1000,
   scrollXMarginOffset: 0,
   scrollYMarginOffset: 0,
+  scrollTouchDisable: false,
   suppressScrollX: false,
   suppressScrollY: false,
   swipeEasing: true,

@@ -229,6 +229,12 @@ then both vertical and horizontal scrolling will affect the scrollbar.
 
 **Default**: `false`
 
+### `scrollTouchDisable {Boolean}`
+
+When set to true, the scroll is disabled using touch movement.
+
+**Default**: `false`
+
 ### `suppressScrollX {Boolean}`
 
 When set to true, the scroll bar in X axis will not be available, regardless of
