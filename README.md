@@ -231,7 +231,8 @@ then both vertical and horizontal scrolling will affect the scrollbar.
 
 ### `scrollTouchDisable {Boolean}`
 
-When set to true, the scroll is disabled using touch movement.
+When set to true, the scroll is disabled using touch movement. Useful when on
+mobile open other widgets and position should stay immovable.
 
 **Default**: `false`
 
